@@ -14,8 +14,7 @@ install:
 	wget http://www.cs.cmu.edu/~parlay/graph_data.tar.bz2
 	tar -xjf graph_data.tar.bz2
 	rm graph_data.tar.bz2
-	git clone git@github.com:cmuparlay/parlaylib.git
-
+	git clone https://github.com/cmuparlay/parlaylib.git
 
 runsmall: hotspots
 	./hotspots 100
