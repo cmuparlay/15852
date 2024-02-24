@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
       G = utils::read_symmetric_graph_from_file(argv[1]);
       n = G.size();
     } else {
-      G = utils::rmat_graph(n, 20*n);
+      G = utils::rmat_symmetric_graph(n, 20*n);
     }
 
     // select n/100 vertices as the hotspots
