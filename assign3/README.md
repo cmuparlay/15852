@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 3
 
 You need to implement the function "hotspots" in the file hotspot.h
 

@@ -11,7 +11,7 @@ hotspots: hotspots.cpp hotspots.h
 	$(CC) $(CFLAGS) $(JEMALLOC) -I parlaylib/include/ -o hotspots hotspots.cpp
 
 install:
-	wget http://www.cs.cmu.edu/~parlay/graph_data.tar.bz2
+	wget https://www.cs.cmu.edu/~parlay/graph_data.tar.bz2
 	tar -xjf graph_data.tar.bz2
 	rm graph_data.tar.bz2
 	git clone https://github.com/cmuparlay/parlaylib.git
